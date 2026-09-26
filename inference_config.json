@@ -1,0 +1,9 @@
+{
+  "threshold": 0.6,
+  "img_size": 224,
+  "classes": [
+    "Benign",
+    "Malignant"
+  ],
+  "preprocessing": "tensorflow.keras.applications.resnet50.preprocess_input"
+}
