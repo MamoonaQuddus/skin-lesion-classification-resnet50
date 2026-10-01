@@ -62,11 +62,12 @@ Swept on the validation set only. Chosen threshold (0.60) maximizes specificity 
 
 ## Project Structure
 
-```                     
-├── app.py                    # Streamlit UI
-├── requirements.txt            # Python dependencies
-├── inference_config.json       # Saved threshold, image size, class names
-└── melanoma-cancer-image-classification.ipynb # Trained notebook
+```
+├── app.py                                          # Streamlit UI
+├── utils.py                                         # Model loading, preprocessing, Grad-CAM, input checks
+├── requirements.txt                                 # Python dependencies
+├── inference_config.json                            # Saved threshold, image size, class names
+└── melanoma-cancer-image-classification.ipynb       # Training notebook
 ```
 
 ## Ethical Considerations
